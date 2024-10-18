@@ -103,11 +103,11 @@ header{
     line-height: 60%;
     -webkit-position: sticky;
     position: sticky;
-    top: 40px;
+    top: 15vw;
     margin-right: 8vw;
   justify-content: flex-end;
     z-index: 9999;
-    transform: translateY(-30px);
+    transform: translateY(-8vw);
   }
 
   .navibar {
