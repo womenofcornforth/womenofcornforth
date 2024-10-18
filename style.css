@@ -1,3 +1,6 @@
+/* @import url('https://fonts.cdnfonts.com/css/adine-kirnberg'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -5,30 +8,38 @@
 }
 
 body {
-    background-color: rgb(147, 211, 233);
-  }
-  .titleheader {
+  background-color: rgb(147, 211, 233);
+}
+
+header{
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+  align-items: stretch;
+}
+
+.titleheader {
     color: whitesmoke;
     font-size: 3vw;
-    text-align: center;
     text-decoration: none;
-    display: block;
-    padding-top: 20px;
-  }
+    font-family: 'Inter', sans-serif;
+    flex-grow: 1;
+}
 
 .navibar {
   display: block;
   justify-content: space-between; 
   /* background-color: #333; */
-  padding: 10px 20px;
+  margin-top: 2vw;
   position: relative;
+  ;
 }
 
 .nav-links {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  flex-grow: 1;
+  flex-grow: 0;
 }
 
 .nav-item {
@@ -37,36 +48,34 @@ body {
 
 .nav-item a {
   text-decoration: none;
-  color: white; /* text colour */
-  padding: 10px 20px;
-  font-size: 5vw;
+  color: white; /* text colour */;
+  font-size: 6vw;
+  font-family: 'Inter', sans-serif;
 }
 
 /* mobile menu icon */
 .menu-icon {
   display: none;
   color: white;
-  font-size: 28px;
   cursor: pointer;
 }
 
 /* mobile view*/
 @media (max-width: 450px) {
   .titleheader{
-    font-size: 3.2vw;
+    font-size: 4vw;
     height: 10px;
     display: inline-block;
-    padding: 30px;
-    padding-right: 10px;
+    margin-left: 2vw;;
   }
 
   .nav-links {
       display: none;
       flex-direction: column;
-      width: 250%;
       position: absolute;
-      top: 60px;
-      right: 0;
+      justify-content: right;
+      align-items:end;
+      top: 10vw;
       /* background-color: rgb(121, 174, 192); */
   }
 
@@ -74,22 +83,27 @@ body {
       display: flex; 
   }
 
-  .nav-item {
-      margin: 10px 0;
-      text-align: center;
+  .nav-item { 
+      text-align: right;
   }
 
   .menu-icon {
-      display: inline-block;
-      align-self: right;
-      font-size: 8vw;
-      padding-right: 15px;
+    display: flex;
+    font-size: 12vw;
+    line-height: 60%;
+    -webkit-position: sticky;
+    position: sticky;
+    top: 30px;
+    margin-right: 10vw;
+  justify-content: flex-end;
+    z-index: 9999;
+    transform: translateY(-10px);
   }
 
   .navibar {
       justify-content: space-between;
-      display: inline-block;
       align-items: center;
+      float: right;
   }
 }
 
