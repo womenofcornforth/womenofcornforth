@@ -1,18 +1,18 @@
 function menuIcon() {
-    var curIcon = document.getElementsByClassName("menu-icon");
-    
-    switch (curIcon.innerHTML){
+    var curIcon = document.getElementById("iconstr");
+    var iconText = curIcon.innerHTML
+    switch (iconText){
         case "☰":
-            var newIcon = "X"
+            var newIcon = "x"
             break;
-        case "X":
+        case "x":
             var newIcon = "☰"
             break;
         default:
-            console.log(curIcon);
+            console.log(iconText);
     }
-    
-    document.getElementsByClassName("menu-icon").innerHTML = newIcon;
+        
+    curIcon.innerHTML = newIcon;
 }
 
 // toggle navbar on mobile

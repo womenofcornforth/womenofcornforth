@@ -58,6 +58,7 @@ header{
 /* mobile menu icon */
 .menu-icon {
   display: none;
+  font-family: 'Courier New', Courier, monospace;
   color: white;
   cursor: pointer;
 }
@@ -81,7 +82,7 @@ header{
       position: absolute;
       justify-content: right;
       align-items:end;
-      top: 10vw;
+      top: 8vw;
       /* background-color: rgb(121, 174, 192); */
   }
 
@@ -101,15 +102,15 @@ header{
 
   .menu-icon {
     display: flex;
-    font-size: 8vw;
+    font-size: 4vw;
     line-height: 60%;
     -webkit-position: sticky;
     position: sticky;
-    top: 15vw;
+    top: 19vw;
     margin-right: 8vw;
-  justify-content: flex-end;
+    justify-content: flex-end;
     z-index: 9999;
-    transform: translateY(-8vw);
+    transform: translateY(-10vw);
   }
 
   .navibar {
