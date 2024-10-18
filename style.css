@@ -67,7 +67,7 @@ header{
 @media (max-width: 450px) {
   .titleheader{
     font-size: 4vw;
-    height: 10px;
+    height: auto;
     display: inline-block;
     margin-left: 6vw;
     text-align: left;
