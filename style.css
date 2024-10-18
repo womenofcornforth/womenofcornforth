@@ -14,8 +14,8 @@ body {
 header{
   display: flex;
   margin-top: 20px;
-  width: 100%;
-  align-items: stretch;
+  justify-content: center;
+  
 }
 
 .titleheader {
@@ -23,7 +23,6 @@ header{
     font-size: 3vw;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
-    flex-grow: 1;
     text-align: center;
 }
 
@@ -65,6 +64,9 @@ header{
 
 /* mobile view*/
 @media (max-width: 450px) {
+  header{
+    justify-content: left;
+  }
   .titleheader{
     font-size: 4vw;
     height: auto;
