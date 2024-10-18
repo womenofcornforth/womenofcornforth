@@ -24,15 +24,17 @@ header{
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     flex-grow: 1;
+    text-align: center;
 }
 
 .navibar {
-  display: block;
-  justify-content: space-between; 
+  display: flex;
+  justify-content: center; 
   /* background-color: #333; */
   margin-top: 2vw;
   position: relative;
-  ;
+
+  margin: 10hv 10hv;
 }
 
 .nav-links {
@@ -49,8 +51,9 @@ header{
 .nav-item a {
   text-decoration: none;
   color: white; /* text colour */;
-  font-size: 6vw;
+  font-size: 4vw;
   font-family: 'Inter', sans-serif;
+  margin: 2vw 6vw;
 }
 
 /* mobile menu icon */
@@ -67,6 +70,7 @@ header{
     height: 10px;
     display: inline-block;
     margin-left: 2vw;;
+    text-align: left;
   }
 
   .nav-links {
@@ -87,6 +91,10 @@ header{
       text-align: right;
   }
 
+  .nav-item a {
+    font-size: 6vw;
+  }
+
   .menu-icon {
     display: flex;
     font-size: 12vw;
@@ -101,9 +109,7 @@ header{
   }
 
   .navibar {
-      justify-content: space-between;
-      align-items: center;
-      float: right;
+      display: none;
   }
 }
 
