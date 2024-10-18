@@ -107,7 +107,7 @@ header{
     margin-right: 8vw;
   justify-content: flex-end;
     z-index: 9999;
-    transform: translateY(-15px);
+    transform: translateY(-30px);
   }
 
   .navibar {
