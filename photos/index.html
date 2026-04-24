@@ -1,0 +1,21 @@
+---
+layout: default
+title: Photographs
+permalink: /photos/
+description: Photographs from around Cornforth and its families.
+wide: true
+---
+
+<header class="page-header">
+  <h1>Photographs</h1>
+  <p class="subtitle">{{ site.data.photos.size }} photographs from around Cornforth and its families. Click to view full size.</p>
+</header>
+
+<div class="photo-grid">
+  {% for photo in site.data.photos %}
+  <a class="photo-tile" href="{{ '/assets/photos/' | append: photo.file | relative_url }}">
+    <img loading="lazy" src="{{ '/assets/photos/' | append: photo.file | relative_url }}" alt="{{ photo.caption | default: photo.file }}">
+    {% if photo.caption and photo.caption != "" %}<figcaption>{{ photo.caption }}</figcaption>{% endif %}
+  </a>
+  {% endfor %}
+</div>

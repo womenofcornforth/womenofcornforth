@@ -1,0 +1,18 @@
+<header class="site-header">
+  <div class="site-header-inner">
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
+
+    <nav id="site-nav" class="site-nav">
+      <a href="{{ '/stories/' | relative_url }}">Stories</a>
+      <a href="{{ '/tales/' | relative_url }}">Doggie's Tales</a>
+      <a href="{{ '/photos/' | relative_url }}">Photographs</a>
+      <a href="{{ '/about/' | relative_url }}">About</a>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,22 @@
+---
+layout: default
+title: Doggie's Tales
+permalink: /tales/
+description: Essays and memories of village life in Cornforth.
+---
+
+<header class="page-header">
+  <h1>Doggie's Tales</h1>
+  <p class="subtitle">Essays and gathered memories of village life.</p>
+</header>
+
+{% assign tales = site.tales | sort: "title" %}
+<ul class="entry-list">
+  {% for t in tales %}
+  <li>
+    <a href="{{ t.url | relative_url }}">{{ t.title }}</a>
+    {% if t.subtitle %}<p class="excerpt"><em>{{ t.subtitle }}</em></p>{% endif %}
+    {% if t.excerpt %}<p class="excerpt">{{ t.excerpt }}</p>{% endif %}
+  </li>
+  {% endfor %}
+</ul>

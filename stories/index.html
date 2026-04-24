@@ -1,0 +1,22 @@
+---
+layout: default
+title: Stories
+permalink: /stories/
+description: Biographies of the women (and men) of Cornforth.
+---
+
+<header class="page-header">
+  <h1>Stories</h1>
+  <p class="subtitle">Biographies of the women — and men — of Cornforth.</p>
+</header>
+
+{% assign stories = site.stories | sort: "title" %}
+<ul class="entry-list">
+  {% for s in stories %}
+  <li>
+    <a href="{{ s.url | relative_url }}">{{ s.title }}</a>
+    {% if s.subtitle %}<p class="excerpt"><em>{{ s.subtitle }}</em></p>{% endif %}
+    {% if s.excerpt %}<p class="excerpt">{{ s.excerpt }}</p>{% endif %}
+  </li>
+  {% endfor %}
+</ul>
