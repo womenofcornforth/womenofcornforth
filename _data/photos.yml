@@ -6,12 +6,12 @@
   slug: 18-high-street-2
   caption: ""
   story: null
-  tale: null
+  tale: doggies-tales
 - file: 18-high-street.jpg
   slug: 18-high-street
-  caption: ""
+  caption: "18 High Street"
   story: null
-  tale: null
+  tale: doggies-tales
 - file: 20141225-154350684-ios.jpg
   slug: 20141225-154350684-ios
   caption: ""
@@ -34,14 +34,14 @@
   tale: null
 - file: 24-high-street.jpg
   slug: 24-high-street
-  caption: ""
+  caption: "24 High Street"
   story: null
-  tale: null
+  tale: doggies-tales
 - file: 70-high-street-2.jpg
   slug: 70-high-street-2
-  caption: ""
+  caption: "70 High Street"
   story: null
-  tale: null
+  tale: doggies-tales
 - file: a-day-at-the-sea-side.jpg
   slug: a-day-at-the-sea-side
   caption: ""
@@ -51,7 +51,7 @@
   slug: ada-washer
   caption: ""
   story: null
-  tale: null
+  tale: monday-was-washing-day
 - file: arroweoot-biscuit.jpg
   slug: arroweoot-biscuit
   caption: ""
@@ -59,9 +59,9 @@
   tale: null
 - file: ascot-gas-boiler.jpg
   slug: ascot-gas-boiler
-  caption: ""
+  caption: "Ascot gas boiler"
   story: null
-  tale: null
+  tale: high-street-smells
 - file: aunt-vera-and-poppy-honeysuckle.jpg
   slug: aunt-vera-and-poppy-honeysuckle
   caption: ""
@@ -70,12 +70,12 @@
 - file: aunty-annie-2.jpg
   slug: aunty-annie-2
   caption: ""
-  story: null
+  story: annie-blackwell
   tale: null
 - file: aunty-annie.jpg
   slug: aunty-annie
   caption: ""
-  story: null
+  story: annie-blackwell
   tale: null
 - file: aunty-pat-on-an-away-day.jpg
   slug: aunty-pat-on-an-away-day
@@ -85,17 +85,17 @@
 - file: aunty-peg-gill.jpg
   slug: aunty-peg-gill
   caption: ""
-  story: null
+  story: margaret-gill
   tale: null
 - file: aunty-peg-alone.jpg
   slug: aunty-peg-alone
   caption: ""
-  story: null
+  story: margaret-gill
   tale: null
 - file: aunty-peg.jpg
   slug: aunty-peg
-  caption: ""
-  story: null
+  caption: "Margaret (Aunty Peg)"
+  story: margaret-gill
   tale: null
 - file: balaclava.jpg
   slug: balaclava
@@ -106,22 +106,22 @@
   slug: bank
   caption: ""
   story: null
-  tale: null
+  tale: doggies-tales
 - file: beryl-walker-lollipop-2.jpg
   slug: beryl-walker-lollipop-2
   caption: ""
-  story: null
+  story: beryl-walker
   tale: null
 - file: beryl-walker-lollipop.jpg
   slug: beryl-walker-lollipop
-  caption: ""
-  story: null
+  caption: "Beryl on lollipop duty"
+  story: beryl-walker
   tale: null
 - file: blackleaded-range.jpg
   slug: blackleaded-range
-  caption: ""
+  caption: "Black-leaded range"
   story: null
-  tale: null
+  tale: hearth-and-home
 - file: bob-wilson.jpg
   slug: bob-wilson
   caption: ""
@@ -135,17 +135,17 @@
 - file: cadman-memorial-1.jpg
   slug: cadman-memorial-1
   caption: ""
-  story: null
+  story: shirley-frisby
   tale: null
 - file: cadman-memorial.jpg
   slug: cadman-memorial
-  caption: ""
-  story: null
+  caption: "The Cadman family memorial"
+  story: shirley-frisby
   tale: null
 - file: cheers-shirley.jpg
   slug: cheers-shirley
   caption: ""
-  story: null
+  story: shirley-frisby
   tale: null
 - file: christison-familu.jpg
   slug: christison-familu
@@ -156,12 +156,12 @@
   slug: church-hall
   caption: ""
   story: null
-  tale: null
+  tale: doggies-tales
 - file: clothes-horse.jpg
   slug: clothes-horse
   caption: ""
   story: null
-  tale: null
+  tale: monday-was-washing-day
 - file: coltsfoot-rock.jpg
   slug: coltsfoot-rock
   caption: ""
@@ -169,38 +169,38 @@
   tale: null
 - file: cornforth-the-green.jpg
   slug: cornforth-the-green
-  caption: ""
+  caption: "Cornforth — The Green"
   story: null
-  tale: null
+  tale: doggies-tales
 - file: crinoline-lady-toilet-roll-cover.jpg
   slug: crinoline-lady-toilet-roll-cover
-  caption: ""
+  caption: "Crinoline lady toilet-roll cover"
   story: null
-  tale: null
+  tale: housewife
 - file: day-trip-with-aunty-peg.jpg
   slug: day-trip-with-aunty-peg
-  caption: ""
-  story: null
+  caption: "A day trip with Aunty Peg"
+  story: margaret-gill
   tale: null
 - file: det-and-peg.jpg
   slug: det-and-peg
-  caption: ""
-  story: null
+  caption: "Det and Peg"
+  story: det-stephenson
   tale: null
 - file: dolly-blue.jpg
   slug: dolly-blue
-  caption: ""
+  caption: "Dolly Blue"
   story: null
-  tale: null
+  tale: monday-was-washing-day
 - file: dolly-and-dolly-tub.jpg
   slug: dolly-and-dolly-tub
   caption: ""
   story: null
-  tale: null
+  tale: monday-was-washing-day
 - file: doris-stapleton.jpg
   slug: doris-stapleton
   caption: ""
-  story: null
+  story: doris-stapleton
   tale: null
 - file: dorothy-walton-connie-stubbs-civil-defense.jpg
   slug: dorothy-walton-connie-stubbs-civil-defense
@@ -210,13 +210,13 @@
 - file: everyone-liked-to-hold-her-hand.jpg
   slug: everyone-liked-to-hold-her-hand
   caption: ""
-  story: null
+  story: annie-blackwell
   tale: null
 - file: ewbank.jpg
   slug: ewbank
   caption: ""
   story: null
-  tale: null
+  tale: monday-was-washing-day
 - file: fairy.jpg
   slug: fairy
   caption: ""
@@ -230,33 +230,33 @@
 - file: florence.jpg
   slug: florence
   caption: ""
-  story: null
+  story: florence-smith
   tale: null
 - file: glebe-villas.jpg
   slug: glebe-villas
-  caption: ""
+  caption: "Glebe Villas"
   story: null
-  tale: null
+  tale: doggies-tales
 - file: glenys-and-billy-thirlaway-1937-cropped-2.jpg
   slug: glenys-and-billy-thirlaway-1937-cropped-2
   caption: ""
-  story: null
+  story: gladys-thirlaway-nee-rossiter
   tale: null
 - file: glenys-and-billy-thirlaway-1937-cropped.jpg
   slug: glenys-and-billy-thirlaway-1937-cropped
   caption: ""
-  story: null
+  story: gladys-thirlaway-nee-rossiter
   tale: null
 - file: glenys-and-billy-thirlaway-1937.jpg
   slug: glenys-and-billy-thirlaway-1937
-  caption: ""
-  story: null
+  caption: "Glenys and Billy Thirlaway, 1937"
+  story: gladys-thirlaway-nee-rossiter
   tale: null
 - file: goesunder.jpg
   slug: goesunder
   caption: ""
   story: null
-  tale: null
+  tale: housewife
 - file: goodbye.jpg
   slug: goodbye
   caption: ""
@@ -264,19 +264,19 @@
   tale: null
 - file: gwen-and-tommy-dodds.jpg
   slug: gwen-and-tommy-dodds
-  caption: ""
-  story: null
+  caption: "Gwen and Tommy Dodds"
+  story: gwen-dodds
   tale: null
 - file: hairdryer.jpg
   slug: hairdryer
   caption: ""
   story: null
-  tale: null
+  tale: housewife
 - file: high-street.jpg
   slug: high-street
   caption: ""
   story: null
-  tale: null
+  tale: doggies-tales
 - file: img-0635.jpg
   slug: img-0635
   caption: ""
@@ -484,19 +484,19 @@
   tale: null
 - file: j-cockerill-butchers.jpg
   slug: j-cockerill-butchers
-  caption: ""
+  caption: "J. Cockerill butchers"
   story: null
-  tale: null
+  tale: high-street-smells
 - file: jen-wilson-and-brake.jpg
   slug: jen-wilson-and-brake
-  caption: ""
-  story: null
+  caption: "Jen Wilson and Brake"
+  story: jen-wilson
   tale: null
 - file: john-cockerill.jpg
   slug: john-cockerill
   caption: ""
   story: null
-  tale: null
+  tale: high-street-smells
 - file: john-gardener.jpg
   slug: john-gardener
   caption: ""
@@ -511,7 +511,7 @@
   slug: laundry-basket
   caption: ""
   story: null
-  tale: null
+  tale: monday-was-washing-day
 - file: lawrence-and-graham-cropped.jpg
   slug: lawrence-and-graham-cropped
   caption: ""
@@ -531,7 +531,7 @@
   slug: mangle-in-backyard
   caption: ""
   story: null
-  tale: null
+  tale: monday-was-washing-day
 - file: margaret-gill.jpg
   slug: margaret-gill
   caption: ""
@@ -546,17 +546,17 @@
   slug: miss-dunn-coop-pass
   caption: ""
   story: null
-  tale: null
+  tale: high-street-smells
 - file: moneys-buildings-and-the-hills-and-holes.jpg
   slug: moneys-buildings-and-the-hills-and-holes
-  caption: ""
+  caption: "Money's Buildings and the Hills and Holes"
   story: null
-  tale: null
+  tale: doggies-tales
 - file: moneys-buildings.jpg
   slug: moneys-buildings
-  caption: ""
+  caption: "Money's Buildings"
   story: null
-  tale: null
+  tale: doggies-tales
 - file: mr-and-mrs-arkwright.jpg
   slug: mr-and-mrs-arkwright
   caption: ""
@@ -565,13 +565,13 @@
 - file: mr-and-mrs-thirlaway.jpg
   slug: mr-and-mrs-thirlaway
   caption: ""
-  story: null
+  story: gladys-thirlaway-nee-rossiter
   tale: null
 - file: new-money-new-chocolate.jpg
   slug: new-money-new-chocolate
   caption: ""
   story: null
-  tale: null
+  tale: take-care-of-the-pennies
 - file: on-the-way-to-the-green.jpg
   slug: on-the-way-to-the-green
   caption: ""
@@ -581,26 +581,26 @@
   slug: oxydol
   caption: ""
   story: null
-  tale: null
+  tale: monday-was-washing-day
 - file: pan-heggerty.jpg
   slug: pan-heggerty
-  caption: ""
+  caption: "Pan heggerty"
   story: null
-  tale: null
+  tale: hearth-and-home
 - file: pat-pennick-1.jpg
   slug: pat-pennick-1
   caption: ""
-  story: null
+  story: pat-pennick
   tale: null
 - file: pat-pennick-2.jpg
   slug: pat-pennick-2
   caption: ""
-  story: null
+  story: pat-pennick
   tale: null
 - file: pat-pennick-freewoman.jpg
   slug: pat-pennick-freewoman
-  caption: ""
-  story: null
+  caption: "Pat Pennick, Freewoman"
+  story: pat-pennick
   tale: null
 - file: pease-pudding.jpg
   slug: pease-pudding
@@ -609,64 +609,64 @@
   tale: null
 - file: peg-gill-and-mrs-miller.jpg
   slug: peg-gill-and-mrs-miller
-  caption: ""
-  story: null
+  caption: "Peg Gill and Mrs Miller"
+  story: margaret-gill
   tale: null
 - file: peggy-sweeting-2.jpg
   slug: peggy-sweeting-2
   caption: ""
-  story: null
+  story: peggy-sweeting
   tale: null
 - file: peggy-sweeting-3.jpg
   slug: peggy-sweeting-3
   caption: ""
-  story: null
+  story: peggy-sweeting
   tale: null
 - file: peggy-sweeting-4.jpg
   slug: peggy-sweeting-4
   caption: ""
-  story: null
+  story: peggy-sweeting
   tale: null
 - file: peggy-sweeting.jpg
   slug: peggy-sweeting
   caption: ""
-  story: null
+  story: peggy-sweeting
   tale: null
 - file: proggy-mat.jpg
   slug: proggy-mat
-  caption: ""
+  caption: "Proggy mat"
   story: null
-  tale: null
+  tale: hearth-and-home
 - file: school-on-the-green.jpg
   slug: school-on-the-green
-  caption: ""
+  caption: "School on the Green"
   story: null
-  tale: null
+  tale: doggies-tales
 - file: shirley-and-gordons-wedding.jpg
   slug: shirley-and-gordons-wedding
-  caption: ""
-  story: null
+  caption: "Shirley and Gordon's wedding"
+  story: shirley-frisby
   tale: null
 - file: shirley-and-the-men-in-her-life.jpg
   slug: shirley-and-the-men-in-her-life
-  caption: ""
-  story: null
+  caption: "Shirley and the men in her life"
+  story: shirley-frisby
   tale: null
 - file: spanish-gold-sweet-tobacco.jpg
   slug: spanish-gold-sweet-tobacco
   caption: ""
   story: null
-  tale: null
+  tale: take-care-of-the-pennies
 - file: station.jpg
   slug: station
   caption: ""
   story: null
-  tale: null
+  tale: doggies-tales
 - file: stephensons-chemist.jpg
   slug: stephensons-chemist
-  caption: ""
+  caption: "Stephenson's chemist"
   story: null
-  tale: null
+  tale: high-street-smells
 - file: stottie-cake.jpg
   slug: stottie-cake
   caption: ""
@@ -676,7 +676,7 @@
   slug: the-citadel
   caption: ""
   story: null
-  tale: null
+  tale: doggies-tales
 - file: the-ovsl.jpg
   slug: the-ovsl
   caption: ""
@@ -684,9 +684,9 @@
   tale: null
 - file: the-slake.jpg
   slug: the-slake
-  caption: ""
+  caption: "The Slake"
   story: null
-  tale: null
+  tale: doggies-tales
 - file: the-ice-cream-van.jpg
   slug: the-ice-cream-van
   caption: ""
@@ -694,19 +694,19 @@
   tale: null
 - file: thru-penny-bit.jpg
   slug: thru-penny-bit
-  caption: ""
+  caption: "Thru'penny bit"
   story: null
-  tale: null
+  tale: take-care-of-the-pennies
 - file: verdun-terrace.jpg
   slug: verdun-terrace
-  caption: ""
+  caption: "Verdun Terrace"
   story: null
-  tale: null
+  tale: doggies-tales
 - file: village-map-bill-black.jpg
   slug: village-map-bill-black
-  caption: ""
+  caption: "Village map — Bill Black"
   story: null
-  tale: null
+  tale: doggies-tales
 - file: wi.jpg
   slug: wi
   caption: ""
@@ -716,7 +716,7 @@
   slug: washboards
   caption: ""
   story: null
-  tale: null
+  tale: monday-was-washing-day
 - file: wedding-day.jpg
   slug: wedding-day
   caption: ""
@@ -730,23 +730,23 @@
 - file: zena-waugh.jpg
   slug: zena-waugh
   caption: ""
-  story: null
+  story: zena-waugh
   tale: null
 - file: aunty-annie-panto.jpg
   slug: aunty-annie-panto
-  caption: ""
-  story: null
+  caption: "Annie in pantomime"
+  story: annie-blackwell
   tale: null
 - file: coop-2.jpg
   slug: coop-2
   caption: ""
   story: null
-  tale: null
+  tale: high-street-smells
 - file: coop-staff.jpg
   slug: coop-staff
-  caption: ""
+  caption: "Co-op staff"
   story: null
-  tale: null
+  tale: high-street-smells
 - file: family-wedding.jpg
   slug: family-wedding
   caption: ""
@@ -756,12 +756,12 @@
   slug: four-star-netty-resized
   caption: ""
   story: null
-  tale: null
+  tale: doggies-tales
 - file: four-star-netty.jpg
   slug: four-star-netty
-  caption: ""
+  caption: "Four-star netty"
   story: null
-  tale: null
+  tale: doggies-tales
 - file: germolene.jpg
   slug: germolene
   caption: ""
@@ -774,14 +774,14 @@
   tale: null
 - file: head-scarf-anf-rollers.jpg
   slug: head-scarf-anf-rollers
-  caption: ""
+  caption: "Head scarf and rollers"
   story: null
-  tale: null
+  tale: housewife
 - file: lavatory.jpg
   slug: lavatory
   caption: ""
   story: null
-  tale: null
+  tale: doggies-tales
 - file: licorice-root.jpg
   slug: licorice-root
   caption: ""
@@ -791,17 +791,17 @@
   slug: living-room-1
   caption: ""
   story: null
-  tale: null
+  tale: hearth-and-home
 - file: living-room.jpg
   slug: living-room
   caption: ""
   story: null
-  tale: null
+  tale: hearth-and-home
 - file: mangle.jpg
   slug: mangle
   caption: ""
   story: null
-  tale: null
+  tale: monday-was-washing-day
 - file: master-of-the-art.jpg
   slug: master-of-the-art
   caption: ""
@@ -811,27 +811,27 @@
   slug: meat-mobile
   caption: ""
   story: null
-  tale: null
+  tale: high-street-smells
 - file: nana-det.jpg
   slug: nana-det
-  caption: ""
-  story: null
+  caption: "Nana Det"
+  story: det-stephenson
   tale: null
 - file: outside-lavatory-cartoon.jpg
   slug: outside-lavatory-cartoon
   caption: ""
   story: null
-  tale: null
+  tale: doggies-tales
 - file: posser-and-mangle.jpg
   slug: posser-and-mangle
   caption: ""
   story: null
-  tale: null
+  tale: monday-was-washing-day
 - file: posser.jpg
   slug: posser
   caption: ""
   story: null
-  tale: null
+  tale: monday-was-washing-day
 - file: scan0056.jpg
   slug: scan0056
   caption: ""
@@ -841,12 +841,12 @@
   slug: scrubbing-the-step
   caption: ""
   story: null
-  tale: null
+  tale: hearth-and-home
 - file: shampoo-and-set.jpg
   slug: shampoo-and-set
-  caption: ""
+  caption: "Shampoo and set"
   story: null
-  tale: null
+  tale: housewife
 - file: shopping.jpg
   slug: shopping
   caption: ""
@@ -861,24 +861,24 @@
   slug: wash-day-memorabilia
   caption: ""
   story: null
-  tale: null
+  tale: monday-was-washing-day
 - file: washday.jpg
   slug: washday
   caption: ""
   story: null
-  tale: null
+  tale: monday-was-washing-day
 - file: washing-tongs.jpg
   slug: washing-tongs
   caption: ""
   story: null
-  tale: null
+  tale: monday-was-washing-day
 - file: washouse-mangle.jpg
   slug: washouse-mangle
   caption: ""
   story: null
-  tale: null
+  tale: monday-was-washing-day
 - file: water-closet.jpg
   slug: water-closet
   caption: ""
   story: null
-  tale: null
+  tale: doggies-tales

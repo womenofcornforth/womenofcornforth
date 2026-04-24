@@ -4,20 +4,279 @@
 # here are merged into the manifest each time scripts/ingest_photos.py runs,
 # so your work here is never clobbered by re-ingestion.
 #
-# Example:
-#
-#   beryl-walker-lollipop:
-#     caption: "Beryl Walker on lollipop duty outside the primary school"
-#     story: beryl-walker
-#
-#   aunty-peg-alone:
-#     caption: "Peggy Sweeting"
-#     story: peggy-sweeting
-#
-#   cadman-memorial:
-#     caption: "The Cadman family memorial"
-#     story: shirley-frisby
-#
 # `story` and `tale` take the slug of a story/tale (filename without .md in
 # _stories/ or _tales/). Associated photos appear on that page and, by
-# default, in the main gallery.
+# default, also in the main gallery.
+
+# ---------- Biographies ----------
+
+# Annie Blackwell — "Aunty Annie" to the village (see hearth-and-home.md:
+# "aunty Peg, and aunty Annie making a clippy mat").
+aunty-annie:
+  story: annie-blackwell
+aunty-annie-2:
+  story: annie-blackwell
+aunty-annie-panto:
+  story: annie-blackwell
+  caption: "Annie in pantomime"
+everyone-liked-to-hold-her-hand:
+  story: annie-blackwell
+
+# Beryl Walker — on lollipop duty outside the primary school.
+beryl-walker-lollipop:
+  story: beryl-walker
+  caption: "Beryl on lollipop duty"
+beryl-walker-lollipop-2:
+  story: beryl-walker
+
+# Det Stephenson — also called "nana Det" (per doris-crawford.md).
+nana-det:
+  story: det-stephenson
+  caption: "Nana Det"
+det-and-peg:
+  story: det-stephenson
+  caption: "Det and Peg"
+
+# Doris Stapleton.
+doris-stapleton:
+  story: doris-stapleton
+
+# Florence Smith.
+florence:
+  story: florence-smith
+
+# Gladys Thirlaway née Rossiter — family photos.
+mr-and-mrs-thirlaway:
+  story: gladys-thirlaway-nee-rossiter
+glenys-and-billy-thirlaway-1937:
+  story: gladys-thirlaway-nee-rossiter
+  caption: "Glenys and Billy Thirlaway, 1937"
+glenys-and-billy-thirlaway-1937-cropped:
+  story: gladys-thirlaway-nee-rossiter
+glenys-and-billy-thirlaway-1937-cropped-2:
+  story: gladys-thirlaway-nee-rossiter
+
+# Gwen Dodds.
+gwen-and-tommy-dodds:
+  story: gwen-dodds
+  caption: "Gwen and Tommy Dodds"
+
+# Jen Wilson.
+jen-wilson-and-brake:
+  story: jen-wilson
+  caption: "Jen Wilson and Brake"
+
+# Margaret Gill — the village's "Aunty Peg" (margaret-gill.md opens with
+# "Margaret Gill 'Aunty Peg'").
+aunty-peg:
+  story: margaret-gill
+  caption: "Margaret (Aunty Peg)"
+aunty-peg-alone:
+  story: margaret-gill
+aunty-peg-gill:
+  story: margaret-gill
+peg-gill-and-mrs-miller:
+  story: margaret-gill
+  caption: "Peg Gill and Mrs Miller"
+day-trip-with-aunty-peg:
+  story: margaret-gill
+  caption: "A day trip with Aunty Peg"
+
+# Pat Pennick.
+pat-pennick-1:
+  story: pat-pennick
+pat-pennick-2:
+  story: pat-pennick
+pat-pennick-freewoman:
+  story: pat-pennick
+  caption: "Pat Pennick, Freewoman"
+
+# Peggy Sweeting.
+peggy-sweeting:
+  story: peggy-sweeting
+peggy-sweeting-2:
+  story: peggy-sweeting
+peggy-sweeting-3:
+  story: peggy-sweeting
+peggy-sweeting-4:
+  story: peggy-sweeting
+
+# Shirley (Cadman) Frisby.
+cadman-memorial:
+  story: shirley-frisby
+  caption: "The Cadman family memorial"
+cadman-memorial-1:
+  story: shirley-frisby
+cheers-shirley:
+  story: shirley-frisby
+shirley-and-gordons-wedding:
+  story: shirley-frisby
+  caption: "Shirley and Gordon's wedding"
+shirley-and-the-men-in-her-life:
+  story: shirley-frisby
+  caption: "Shirley and the men in her life"
+
+# Zena Waugh.
+zena-waugh:
+  story: zena-waugh
+
+
+# ---------- Tales ----------
+# (Conservative picks — items clearly about washing, cleaning, and home
+# tools, mapped to the tales that describe them.)
+
+# Monday was washing day — laundry tools and products.
+mangle:
+  tale: monday-was-washing-day
+mangle-in-backyard:
+  tale: monday-was-washing-day
+posser:
+  tale: monday-was-washing-day
+posser-and-mangle:
+  tale: monday-was-washing-day
+washboards:
+  tale: monday-was-washing-day
+washday:
+  tale: monday-was-washing-day
+wash-day-memorabilia:
+  tale: monday-was-washing-day
+washing-tongs:
+  tale: monday-was-washing-day
+washouse-mangle:
+  tale: monday-was-washing-day
+dolly-and-dolly-tub:
+  tale: monday-was-washing-day
+dolly-blue:
+  tale: monday-was-washing-day
+  caption: "Dolly Blue"
+oxydol:
+  tale: monday-was-washing-day
+ada-washer:
+  tale: monday-was-washing-day
+ewbank:
+  tale: monday-was-washing-day
+laundry-basket:
+  tale: monday-was-washing-day
+clothes-horse:
+  tale: monday-was-washing-day
+
+# Hearth and Home — living-room / general domestic.
+blackleaded-range:
+  tale: hearth-and-home
+  caption: "Black-leaded range"
+living-room:
+  tale: hearth-and-home
+living-room-1:
+  tale: hearth-and-home
+proggy-mat:
+  tale: hearth-and-home
+  caption: "Proggy mat"
+scrubbing-the-step:
+  tale: hearth-and-home
+pan-heggerty:
+  tale: hearth-and-home
+  caption: "Pan heggerty"
+
+# Housewife — personal grooming and fashion of the era.
+hairdryer:
+  tale: housewife
+head-scarf-anf-rollers:
+  tale: housewife
+  caption: "Head scarf and rollers"
+shampoo-and-set:
+  tale: housewife
+  caption: "Shampoo and set"
+crinoline-lady-toilet-roll-cover:
+  tale: housewife
+  caption: "Crinoline lady toilet-roll cover"
+goesunder:
+  tale: housewife
+
+# Take care of the pennies — money / sweets.
+thru-penny-bit:
+  tale: take-care-of-the-pennies
+  caption: "Thru'penny bit"
+new-money-new-chocolate:
+  tale: take-care-of-the-pennies
+spanish-gold-sweet-tobacco:
+  tale: take-care-of-the-pennies
+
+# High Street Smells — shops and chemist.
+stephensons-chemist:
+  tale: high-street-smells
+  caption: "Stephenson's chemist"
+j-cockerill-butchers:
+  tale: high-street-smells
+  caption: "J. Cockerill butchers"
+john-cockerill:
+  tale: high-street-smells
+meat-mobile:
+  tale: high-street-smells
+coop-2:
+  tale: high-street-smells
+coop-staff:
+  tale: high-street-smells
+  caption: "Co-op staff"
+miss-dunn-coop-pass:
+  tale: high-street-smells
+ascot-gas-boiler:
+  tale: high-street-smells
+  caption: "Ascot gas boiler"
+
+# Doggie's Tales — village views, buildings and landmarks.
+moneys-buildings:
+  tale: doggies-tales
+  caption: "Money's Buildings"
+moneys-buildings-and-the-hills-and-holes:
+  tale: doggies-tales
+  caption: "Money's Buildings and the Hills and Holes"
+cornforth-the-green:
+  tale: doggies-tales
+  caption: "Cornforth — The Green"
+the-slake:
+  tale: doggies-tales
+  caption: "The Slake"
+the-citadel:
+  tale: doggies-tales
+verdun-terrace:
+  tale: doggies-tales
+  caption: "Verdun Terrace"
+school-on-the-green:
+  tale: doggies-tales
+  caption: "School on the Green"
+church-hall:
+  tale: doggies-tales
+bank:
+  tale: doggies-tales
+station:
+  tale: doggies-tales
+glebe-villas:
+  tale: doggies-tales
+  caption: "Glebe Villas"
+high-street:
+  tale: doggies-tales
+18-high-street:
+  tale: doggies-tales
+  caption: "18 High Street"
+18-high-street-2:
+  tale: doggies-tales
+24-high-street:
+  tale: doggies-tales
+  caption: "24 High Street"
+70-high-street-2:
+  tale: doggies-tales
+  caption: "70 High Street"
+four-star-netty:
+  tale: doggies-tales
+  caption: "Four-star netty"
+four-star-netty-resized:
+  tale: doggies-tales
+lavatory:
+  tale: doggies-tales
+outside-lavatory-cartoon:
+  tale: doggies-tales
+water-closet:
+  tale: doggies-tales
+village-map-bill-black:
+  tale: doggies-tales
+  caption: "Village map — Bill Black"
