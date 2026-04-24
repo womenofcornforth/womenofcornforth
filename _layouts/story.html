@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<article class="story">
+  <header class="story-header">
+    <p class="crumbs"><a href="{{ '/stories/' | relative_url }}">← All stories</a></p>
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
+  </header>
+
+  <div class="story-body">
+    {{ content }}
+  </div>
+
+  {% assign slug = page.slug | default: page.name | remove: '.md' %}
+  {% assign related = site.data.photos | where: "story", slug %}
+  {% if related.size > 0 %}
+  <section class="related-photos">
+    <h2>Photographs</h2>
+    <div class="photo-grid">
+      {% for photo in related %}
+        <a class="photo-tile" href="{{ '/assets/photos/' | append: photo.file | relative_url }}">
+          <img loading="lazy" src="{{ '/assets/photos/' | append: photo.file | relative_url }}" alt="{{ photo.caption | default: photo.file }}">
+          {% if photo.caption %}<figcaption>{{ photo.caption }}</figcaption>{% endif %}
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+</article>

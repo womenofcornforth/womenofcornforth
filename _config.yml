@@ -1,0 +1,59 @@
+title: Women of Cornforth
+tagline: "Voices, memories, and lives from Doggie"
+description: >-
+  An archive of stories, photographs and memories celebrating the women
+  (and men) who shaped life in Cornforth — known to those who grew up there
+  as Doggie.
+author: Julie Leitheiser
+email: julie@womenofcornforth.com
+
+# For GitHub Pages under the current repo (https://womenofcornforth.github.io/womenofcornforth/).
+# Leave baseurl empty once a custom domain is configured.
+baseurl: "/womenofcornforth"
+url: "https://womenofcornforth.github.io"
+
+permalink: /:collection/:name/
+
+collections:
+  stories:
+    output: true
+    permalink: /stories/:name/
+  tales:
+    output: true
+    permalink: /tales/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: stories
+    values:
+      layout: story
+  - scope:
+      path: ""
+      type: tales
+    values:
+      layout: tale
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# GitHub Pages uses the `github-pages` gem which bundles a set of plugins.
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - scripts
+  - vendor
+  - node_modules
+  - .sass-cache

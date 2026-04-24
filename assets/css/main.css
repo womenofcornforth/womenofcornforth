@@ -1,0 +1,278 @@
+/* --------------------------------------------------------------------------
+   Women of Cornforth — baseline stylesheet
+   Mobile-first. Warm archival palette; easy on long-form reading.
+   -------------------------------------------------------------------------- */
+
+:root {
+  --bg: #f7f3ec;
+  --surface: #ffffff;
+  --ink: #23201b;
+  --ink-soft: #5a5247;
+  --accent: #7a4a2b;
+  --accent-soft: #c69a76;
+  --rule: #e0d8c8;
+  --max-width: 40rem;
+  --max-width-wide: 64rem;
+  --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Georgia", serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--ink);
+  background: var(--bg);
+}
+
+a { color: var(--accent); }
+a:hover { color: var(--ink); }
+
+img { max-width: 100%; height: auto; display: block; }
+
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1.25rem 1rem 3rem;
+}
+
+.container-wide {
+  max-width: var(--max-width-wide);
+}
+
+/* ---------- Header / nav ---------- */
+
+.site-header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--rule);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.site-header-inner {
+  max-width: var(--max-width-wide);
+  margin: 0 auto;
+  padding: 0.75rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.site-title {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.site-nav {
+  display: none;
+  flex-direction: column;
+  gap: 0.25rem;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: var(--surface);
+  border-top: 1px solid var(--rule);
+  border-left: 1px solid var(--rule);
+  padding: 0.75rem 1rem;
+  min-width: 12rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+}
+
+.site-nav.is-open { display: flex; }
+
+.site-nav a {
+  display: block;
+  padding: 0.4rem 0;
+  text-decoration: none;
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+}
+
+.site-nav a:hover { color: var(--accent); }
+
+.nav-toggle {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1.75rem;
+  height: 1.3rem;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.nav-toggle-bar {
+  display: block;
+  height: 2px;
+  background: var(--ink);
+  border-radius: 2px;
+}
+
+@media (min-width: 720px) {
+  .nav-toggle { display: none; }
+  .site-nav {
+    display: flex !important;
+    flex-direction: row;
+    position: static;
+    border: 0;
+    box-shadow: none;
+    padding: 0;
+    background: transparent;
+    min-width: 0;
+    gap: 1.5rem;
+  }
+  .site-nav a { padding: 0; }
+}
+
+/* ---------- Home hero ---------- */
+
+.hero {
+  text-align: center;
+  margin: 1rem 0 2rem;
+}
+
+.hero h1 {
+  font-size: clamp(1.6rem, 2.2rem + 1vw, 2.6rem);
+  margin: 0.25rem 0 0.4rem;
+  line-height: 1.2;
+}
+
+.hero .tagline {
+  font-style: italic;
+  color: var(--ink-soft);
+  margin: 0 0 1rem;
+}
+
+.hero .lede {
+  font-size: 1.1rem;
+  color: var(--ink);
+}
+
+/* ---------- Collection index lists ---------- */
+
+.entry-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.entry-list li {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.entry-list a {
+  text-decoration: none;
+  color: var(--ink);
+  font-size: 1.1rem;
+}
+
+.entry-list a:hover { color: var(--accent); }
+
+.entry-list .excerpt {
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  margin: 0.25rem 0 0;
+}
+
+/* ---------- Story / tale body ---------- */
+
+.story-header, .tale-header, .page-header {
+  margin: 0.5rem 0 1.5rem;
+}
+
+.crumbs {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  margin: 0 0 0.5rem;
+}
+
+.crumbs a { text-decoration: none; }
+
+.story h1, .tale h1, .page-header h1 {
+  font-size: clamp(1.6rem, 1.6rem + 1.2vw, 2.3rem);
+  margin: 0 0 0.25rem;
+  line-height: 1.2;
+}
+
+.subtitle {
+  color: var(--ink-soft);
+  font-style: italic;
+  margin: 0;
+}
+
+.story-body p, .tale-body p { margin: 0 0 1rem; }
+.story-body h2, .tale-body h2 {
+  margin-top: 2rem;
+  font-size: 1.35rem;
+}
+
+/* ---------- Photo grid ---------- */
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.5rem;
+  margin: 1rem 0 2rem;
+}
+
+@media (min-width: 720px) {
+  .photo-grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.75rem; }
+}
+
+.photo-tile {
+  display: block;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  padding: 4px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.photo-tile img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.photo-tile figcaption {
+  font-size: 0.85rem;
+  padding: 0.4rem 0.25rem 0.2rem;
+  color: var(--ink-soft);
+}
+
+.related-photos h2 {
+  margin-top: 2rem;
+  border-top: 1px solid var(--rule);
+  padding-top: 1rem;
+}
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  border-top: 1px solid var(--rule);
+  background: var(--surface);
+  margin-top: 3rem;
+  padding: 1.5rem 0;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+}
+
+.site-footer .container { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+.site-footer a { color: var(--accent); }
+.site-footer .fineprint { font-size: 0.8rem; margin-top: 0.5rem; }

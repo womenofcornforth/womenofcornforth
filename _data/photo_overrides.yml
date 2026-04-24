@@ -1,0 +1,23 @@
+# Hand-curated captions and story/tale associations for photographs.
+#
+# Key each entry by the photo's slug (see _data/photos.yml for slugs). Entries
+# here are merged into the manifest each time scripts/ingest_photos.py runs,
+# so your work here is never clobbered by re-ingestion.
+#
+# Example:
+#
+#   beryl-walker-lollipop:
+#     caption: "Beryl Walker on lollipop duty outside the primary school"
+#     story: beryl-walker
+#
+#   aunty-peg-alone:
+#     caption: "Peggy Sweeting"
+#     story: peggy-sweeting
+#
+#   cadman-memorial:
+#     caption: "The Cadman family memorial"
+#     story: shirley-frisby
+#
+# `story` and `tale` take the slug of a story/tale (filename without .md in
+# _stories/ or _tales/). Associated photos appear on that page and, by
+# default, in the main gallery.
