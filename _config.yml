@@ -7,10 +7,9 @@ description: >-
 author: Julie Leitheiser
 email: julie@womenofcornforth.com
 
-# For GitHub Pages under the current repo (https://womenofcornforth.github.io/womenofcornforth/).
-# Leave baseurl empty once a custom domain is configured.
-baseurl: "/womenofcornforth"
-url: "https://womenofcornforth.github.io"
+# Served from the custom domain `womenofcornforth.com` (see ./CNAME).
+baseurl: ""
+url: "https://womenofcornforth.com"
 
 permalink: /:collection/:name/
 
